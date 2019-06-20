@@ -1,9 +1,5 @@
-import { Container } from 'inversify';
+import { IoCContainer } from './importer';
 
-const mainContainer = new Container();
-const reposContainer = new Container();
+const mainContainer = new IoCContainer();
 
-
-
-
-export { mainContainer as container };
+export { mainContainer as iocContainer };
