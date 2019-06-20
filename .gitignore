@@ -1,0 +1,8 @@
+# Generated folders
+
+node_modules
+out
+
+# Generated files
+src/**/*.js
+yarn-error.log
